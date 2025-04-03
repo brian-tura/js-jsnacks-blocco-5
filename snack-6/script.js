@@ -11,4 +11,17 @@ const zucchine = [
   { type: 'Calabrese', weight: 14, length: 4 },
 ];
 
+const schlongZucchine = zucchine.filter(schlong);
+const smolZucchine = zucchine.filter(smol);
+console.log(schlongZucchine);
+console.log(smolZucchine);
+
+function schlong(items){
+  return items.length >= 15;
+}
+
+function smol(items){
+  return items.length < 15;
+}
+
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
