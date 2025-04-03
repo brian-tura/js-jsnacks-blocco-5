@@ -22,7 +22,7 @@ const students = [
 const mario = students.find(id_2);
 console.log(mario);
 
-function id_2(items){
+function id_2(items) {
   return items.id == 2;
 }
 

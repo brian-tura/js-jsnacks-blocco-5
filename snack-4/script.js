@@ -8,7 +8,7 @@ const posts = [
 const authors = posts.map(names);
 console.log(authors);
 
-function names(item){
+function names(item) {
   return item.author;
 }
 

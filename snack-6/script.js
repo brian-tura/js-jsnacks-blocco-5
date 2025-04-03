@@ -16,11 +16,11 @@ const smolZucchine = zucchine.filter(smol);
 console.log(schlongZucchine);
 console.log(smolZucchine);
 
-function schlong(items){
+function schlong(items) {
   return items.length >= 15;
 }
 
-function smol(items){
+function smol(items) {
   return items.length < 15;
 }
 
